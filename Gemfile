@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'pg'
 
 gem 'pry-rails', :group => :development
 
