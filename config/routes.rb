@@ -1,4 +1,7 @@
 Wedding::Application.routes.draw do
+  resources :gifts
+  resources :godparents
+  
   root :to => "home#index"
   # resources :home, :only => :index
     

@@ -1,0 +1,2 @@
+class GodparentsController < ApplicationController
+end

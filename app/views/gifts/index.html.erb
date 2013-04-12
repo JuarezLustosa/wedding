@@ -1,0 +1,9 @@
+<% @gifts.each do |gift| %>
+  <%= link_to(gift_path(gift)) do %>
+    <hr class="featurette-divider">
+      <div class="featurette">
+        <img class="featurette-image pull-right" src=<%= gift.image_path %> >
+        <p class="text-center larger"><%= gift.description %></p>
+      </div>
+  <% end %>
+<% end %>

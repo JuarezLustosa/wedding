@@ -1,0 +1,9 @@
+<hr class="featurette-divider">
+  <h2><p class="text-center larger">Listas dos <%= @gift.description %></p></h2>
+  <p class="text-center text-info">Realizamos as listas em mais de um local sinta-se a vontade.</p>
+<hr class="featurette-divider">
+
+<% @gift.shops.each do |shop| %>
+    <p class="text-center"><%= shop.name %></p>
+    <p class="text-center"><%= shop.link %></p>
+<% end %>
