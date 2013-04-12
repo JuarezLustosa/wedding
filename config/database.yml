@@ -14,7 +14,7 @@ development:
 
 test:
   <<: *defaults
-  database: wedding_development_test
+  database: wedding_test
   username: solucao_social
   password: solucao_social
 
