@@ -9,12 +9,12 @@ Wedding::Application.configure do
   config.action_controller.perform_caching = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
-  config.serve_static_assets = false
+  config.serve_static_assets = true
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
   
-  config.assets.precompile += %w(countdown_dashboard.js home.js)
+  config.assets.precompile += %w(countdown_dashboard.js home.js countdown.js carousel.js holder.js boostrap-carousel.js)
   
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
