@@ -9,8 +9,6 @@
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
   </head>
   <body>
     <!-- NAVBAR
@@ -31,8 +29,8 @@
             <div class="nav-collapse collapse">
               <ul class="nav">
                 <li class="active"><%= link_to "Home", root_path %></li>
-                <li><%= link_to "Lista", gifts_path %></li>
-                <li><a href="">Sobre o casal</a></li>
+                <li><%= link_to "Lista de presentes", gifts_path %></li>
+                <li><%= link_to "Sobre o casal", about_index_path %></li>
                 <li><a href="">Contato</a></li>
               </ul>
             </div><!--/.nav-collapse -->
@@ -48,11 +46,16 @@
       <div class="container">
         <p class="muted credit">© 2013· - Produzido por
           <a href="http://www.facebook.com/juarez.lustosa">Juarez Lustosa</a>
-        </p>        
-        <audio autoplay="autoplay" controls="controls", preload="preload">  
+        </p>
+        
+        <iframe src="https://www.facebook.com/plugins/like.php?href=localhost3000"
+              scrolling="no" frameborder="0"
+              style="border:none; width:450px; height:80px"></iframe>
+                
+        <!-- <audio autoplay="autoplay" controls="controls", preload="preload">  
           <source src="https://s3-sa-east-1.amazonaws.com/marry/marryyou.mp3" />
           <source src="https://s3-sa-east-1.amazonaws.com/marry/marryyou.ogg" />
-        </audio>                        
+        </audio>                         -->
       </div>
     </div>
   </body>
