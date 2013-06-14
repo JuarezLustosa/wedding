@@ -1,9 +1,20 @@
 <hr class="featurette-divider">
-  <h2><p class="text-center larger">Listas dos <%= @gift.description %></p></h2>
+  <h2>
+    <p class="text-center larger">Listas de Presentes </p>
+  </h2>
+
   <p class="text-center text-info">Realizamos as listas em mais de um local sinta-se a vontade.</p>
 <hr class="featurette-divider">
 
-<% @gift.shops.each do |shop| %>
-    <p class="text-center"><%= shop.name %></p>
-    <p class="text-center"><%= shop.link %></p>
-<% end %>
+<p class="text-center"><img src="/assets/extra.jpg" class="img-polaroid"></p>
+<p class="text-center">
+  <%= link_to "Extra", "http://www.extra.com.br/listadecasamento/home.aspx"%>
+</p>
+<p class="text-center">Código da lista: 269722</p>
+<hr class="featurette-divider">
+
+<p class="text-center"><img src="/assets/fastshop.jpg" class="img-polaroid">  </p>
+<p class="text-center">
+  <%= link_to "Fast Shop", "http://www.fastshop.com.br/ListaCasamento/ListaCasamentoHome.aspx" %>
+</p>
+<p class="text-center">Para achar a lista apenas digite os nomes Juarez e Karina que irá aparecer</p>

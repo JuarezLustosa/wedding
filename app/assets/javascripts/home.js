@@ -12,6 +12,11 @@ var photo = function() {
   $('.image').children().attr('src', randon_path)
 
   setTimeout(photo, 5000);
-}
+};
 
-photo();
+
+var music = function() {
+  $('.audio').children().children().attr('src', "https://s3-sa-east-1.amazonaws.com/marry/marryyou.mp3");
+};
+
+music();

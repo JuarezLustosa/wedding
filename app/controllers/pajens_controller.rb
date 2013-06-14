@@ -1,0 +1,2 @@
+class PajensController < ApplicationController
+end

@@ -1,0 +1,1 @@
+$("#myCarousel").carousel();var photo=function(){var e=["assets/embreve.jpg","assets/embreve.jpg","assets/embreve.jpg","assets/embreve.jpg","assets/embreve.jpg"],t=e[Math.floor(Math.random()*e.length)];$(".image").children().attr("src",t),setTimeout(photo,5e3)};photo();

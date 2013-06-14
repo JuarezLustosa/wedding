@@ -25,23 +25,35 @@
    color: #ffffff;
  }
  
+ #faltam {
+   height: 150px;
+   margin-left: 2px;
+   margin-top: -120px;
+   margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+   z-index: 10;
+   font-size: 12pt;
+   color: #FFF;
+ }
+ 
  #countdown_dashboard {
-   height: 170px;
-   margin-left: 280px;
+   height: 150px;
+   margin-left: 2px;
+   margin-top: -100px;
+   margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+   z-index: 10;
  }
 
  .dash {
    width: 150px;
    height: 30px;
    float: left;
-   margin-left: 10px;
-   padding-left: 13px;
+   padding-left: 6px;
    position: relative;
-   color: #333;
+   color: #FFF;
  }
 
  .dash .digit {
-   font: bold 50pt Verdana;
+   font: bold 42pt Verdana;
    font-weight: bold;
    float: left;
    width: 40px;
@@ -77,9 +89,6 @@
    margin-top: 20px;
    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
  }
- .navbar-wrapper .navbar {
-
- }
 
  /* Remove border and change up box shadow for more contrast */
  .navbar .navbar-inner {
@@ -96,10 +105,24 @@
    font-weight: bold;
    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
  }
-
+ 
+ .navbar .brand span {
+   padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+   font-size: 20px;
+   font-weight: bold;
+   text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+   color: #FFF;
+ }
+ 
  /* Navbar links: increase padding for taller navbar */
  .navbar .nav > li > a {
    padding: 15px 20px;
+ }
+ 
+ .navbar .nav > li > p {
+   font-size: 23px;
+   padding: 15px 20px;
+   color: #FFF;
  }
 
  /* Offset the responsive button for proper vertical alignment */
@@ -176,8 +199,7 @@
  
  .marketing h1 {
    text-align: center;
-   margin-top: -60px
-   
+   margin-top: -60px;
  }
  
  .marketing .span4 p {
@@ -247,6 +269,7 @@
  .carousel .item {
    height: 500px;
  }
+ 
  .carousel img {
    width: auto;
    height: 500px;
@@ -270,13 +293,27 @@
  .navbar-inner {
    margin: -20px;
  }
-
+ 
+ #faltam {
+   margin-left: -20px;
+   margin-right: -20px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ 
+ #countdown_dashboard { 
+   margin-left: -20px;
+   margin-right: -20px;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+  
  .carousel {
    margin-left: -20px;
    margin-right: -20px;
  }
+ 
  .carousel .container {
-
  }
  .carousel .item {
    height: 300px;
@@ -284,6 +321,7 @@
  .carousel img {
    height: 300px;
  }
+ 
  .carousel-caption {
    width: 65%;
    padding: 0 70px;

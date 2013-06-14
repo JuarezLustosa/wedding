@@ -12,9 +12,8 @@ namespace :initiate do
                      :image_path => '/assets/cafeteira.jpg',
                      :shops => [shop])
 
-        Gift.create!(:description => 'Utensílios de cozinha', :image_path => '/assets/chaleira.jpg')
-        Gift.create!(:description => 'Cama, Mesa e Banho', :image_path => '/assets/roupa.jpg')
-        
+        # Gift.create!(:description => 'Utensílios de cozinha', :image_path => '/assets/chaleira.jpg')
+        # Gift.create!(:description => 'Cama, Mesa e Banho', :image_path => '/assets/roupa.jpg')
       end
     end
   end
