@@ -32,7 +32,7 @@
       </div>
       <h2>Padrinhos</h2>
       <p>Nossos padrinhos.</p>
-      <p><a class="btn" href=<%=godparents_path %>>Veja Todos »</a></p>
+      <p><a class="btn" href=<%#=godparents_path %>>Veja Todos »</a></p>
     </div><!-- /.span4 -->
     
     <div class="span4">
@@ -50,8 +50,8 @@
   </div><!-- /.row -->
 
   <script type="text/javascript">
-    console.log($('.audio'))
-    $('.audio').children().children().attr('src', "https://s3-sa-east-1.amazonaws.com/marry/marryyou.mp3");
+    $('.audio').children().children().attr('src', "https://s3-sa-east-1.amazonaws.com/marry/marryyou.mp3",
+                                           'src', "https://s3-sa-east-1.amazonaws.com/marry/marryyou.ogg");
   </script>
 
 <% content_for :bottom do %>   
