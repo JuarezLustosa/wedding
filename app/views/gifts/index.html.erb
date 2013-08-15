@@ -1,9 +1,18 @@
-<% @gifts.each do |gift| %>
-  <%= link_to(gift_path(gift)) do %>
-    <hr class="featurette-divider">
-      <div class="featurette">
-        <img class="featurette-image pull-right" src=<%= gift.image_path %> >
-        <p class="text-center larger"><%= gift.description %></p>
-      </div>
-  <% end %>
-<% end %>
+<hr class="featurette-divider">
+  <h2>
+    <p class="text-center larger">Listas de Presentes </p>
+  </h2>
+
+  <p class="text-center text-info">Realizamos as listas em mais de um local sinta-se a vontade.</p>
+
+<p class="text-center">   
+  <%= link_to(image_tag("/assets/pontofrio.jpg"), "http://www.pontofrio.com.br/Site/ListaGerenciadaLandingPage.aspx?idListaCompra=290153")%>
+</p>
+<p class="text-center"> LISTA DE ELETRODOMÉSTICOS NO PONTO FRIO CLICK NA IMAGEM</p>
+<hr class="featurette-divider">
+
+<p class="text-center">   
+  <%= link_to(image_tag("/assets/cadadecasa.gif"), "http://www.casadecasavirtual.com.br/index.php/gifts/index/view/code/4b65b5db446485cfa6a60f611b709551/")%>
+</p>
+<p class="text-center"> LISTA DE UTENSÍLIOS CLICK NA IMAGEM</p>
+<hr class="featurette-divider">
