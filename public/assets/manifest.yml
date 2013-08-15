@@ -1,6 +1,8 @@
 ---
 bob.jpg: bob-98837d8d1ca01a4e01e508458f0da83f.jpg
 bob/index.jpg: bob-98837d8d1ca01a4e01e508458f0da83f.jpg
+cadadecasa.gif: cadadecasa-ac58bfbdf4347b3baa37c04a696d0009.gif
+cadadecasa/index.gif: cadadecasa-ac58bfbdf4347b3baa37c04a696d0009.gif
 cafeteira.jpg: cafeteira-50ee6f995b35cdfb6181b6bf03a49f57.jpg
 cafeteira/index.jpg: cafeteira-50ee6f995b35cdfb6181b6bf03a49f57.jpg
 chaleira.jpg: chaleira-dec558090913c84de0d079b3e42626b4.jpg
@@ -13,10 +15,6 @@ dani.jpg: dani-e40e6c3f4d45de711a3517641944d72f.jpg
 dani/index.jpg: dani-e40e6c3f4d45de711a3517641944d72f.jpg
 embreve.jpg: embreve-2f6fb321bc998c3e27bf7a8e9f036cc8.jpg
 embreve/index.jpg: embreve-2f6fb321bc998c3e27bf7a8e9f036cc8.jpg
-extra.jpg: extra-d395fddc4d67cbab0bf41ca3e8b6d25d.jpg
-extra/index.jpg: extra-d395fddc4d67cbab0bf41ca3e8b6d25d.jpg
-fastshop.jpg: fastshop-9dc13d5b7d1471d36f36a018d988ee7b.jpg
-fastshop/index.jpg: fastshop-9dc13d5b7d1471d36f36a018d988ee7b.jpg
 favicon.ico: favicon-97eb376bfb6e29d94e388288a9f8f481.ico
 favicon/index.ico: favicon-97eb376bfb6e29d94e388288a9f8f481.ico
 fernando.jpg: fernando-0b87b3b52ec36dd31f0574811d579d38.jpg
@@ -111,6 +109,8 @@ photo3.jpg: photo3-3b79ad59f77ba975328c5e927ad23626.jpg
 photo3/index.jpg: photo3-3b79ad59f77ba975328c5e927ad23626.jpg
 plantao.jpg: plantao-02734bec0783d40ce5cf393f84cc4ded.jpg
 plantao/index.jpg: plantao-02734bec0783d40ce5cf393f84cc4ded.jpg
+pontofrio.jpg: pontofrio-07bbe5d2568fb9e0767877898ea84185.jpg
+pontofrio/index.jpg: pontofrio-07bbe5d2568fb9e0767877898ea84185.jpg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 roberto.jpg: roberto-2232a6235feae2ca03ca9b9f8ce57c31.jpg
@@ -121,6 +121,8 @@ roupa.jpg: roupa-6663e66cab71fce748a141a89c730443.jpg
 roupa/index.jpg: roupa-6663e66cab71fce748a141a89c730443.jpg
 sara.jpg: sara-720712508f87263307e1efd1393a1fb4.jpg
 sara/index.jpg: sara-720712508f87263307e1efd1393a1fb4.jpg
+sonia.jpg: sonia-927241a012f9bc39c52c7119b11803ca.jpg
+sonia/index.jpg: sonia-927241a012f9bc39c52c7119b11803ca.jpg
 tahisa.jpg: tahisa-be81526f65e6e550cead410ed59e5236.jpg
 tahisa/index.jpg: tahisa-be81526f65e6e550cead410ed59e5236.jpg
 thumbs/Pai.jpg: thumbs/Pai-627b51ff1caeed9afea43b36d6ed5849.jpg
@@ -193,6 +195,8 @@ tiago.jpg: tiago-906152c09e89973e11ba8e2c3713b3ee.jpg
 tiago/index.jpg: tiago-906152c09e89973e11ba8e2c3713b3ee.jpg
 top-highlight.png: top-highlight-0413e1dd9ca53406974910d23a2d9f48.png
 top-highlight/index.png: top-highlight-0413e1dd9ca53406974910d23a2d9f48.png
+victor.jpg: victor-3cb6da961ef44ef90b9ed40ce32a348a.jpg
+victor/index.jpg: victor-3cb6da961ef44ef90b9ed40ce32a348a.jpg
 xicao.jpg: xicao-97c8702f1dc930e8ef13a33208244426.jpg
 xicao/index.jpg: xicao-97c8702f1dc930e8ef13a33208244426.jpg
 zeamin.jpg: zeamin-0cfaf267e279dd30213859bd1d3c0cb2.jpg
